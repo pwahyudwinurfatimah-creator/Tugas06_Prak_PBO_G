@@ -28,7 +28,7 @@ public class JasaLukis {
     public String getNamaJasa() {
         return namaJasa;
     }
-}
+
 
 //Tugas Nomor 2 Railene
     public class Pemesanan{
@@ -58,3 +58,8 @@ public class JasaLukis {
             System.out.println("----------------------");
         }
     }
+
+    public Pemesanan buatPemesanan(String nama, String jenis, String desain, double harga) {
+        return new Pemesanan(nama, jenis, desain, harga);
+    }
+}
